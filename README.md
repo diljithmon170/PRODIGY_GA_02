@@ -1,39 +1,27 @@
-# 🎨 PRODiGY_GA_02 – Text-to-Image Generation with Diffusion Models
+# 🎨 PRODiGY_GENAI_02 – Image Generation with Pre-trained Diffusion Models
 
-This project explores **text-to-image generation** using state-of-the-art **pretrained diffusion models** such as **Stable Diffusion**. Given a textual prompt, the model generates high-quality, realistic images that reflect the semantic content of the input text.
+This project demonstrates the use of pre-trained **text-to-image generation models** like **DALL·E mini** and **Stable Diffusion** to create images based on natural language prompts. The task is part of the **Generative AI Internship** at Prodigy InfoTech.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Understand the principles of diffusion models for generative tasks.
-- Use pre-trained text-to-image models (like Stable Diffusion) to generate images from text prompts.
-- Experiment with prompt engineering to optimize image outputs.
-- Build a pipeline to input prompts and save generated images.
+- Generate visually compelling images from textual prompts.
+- Explore and utilize pre-trained models like Stable Diffusion and DALL·E-mini.
+- Apply prompt engineering for better creative outputs.
+- Understand diffusion models and their working principles.
 
 ---
 
 ## 🧰 Tech Stack & Tools
 
-- **Model:** Stable Diffusion (via Hugging Face / CompVis / Diffusers)
-- **Library:** 🤗 Hugging Face `diffusers`, `transformers`, `torch`
+- **Model:** Stable Diffusion / DALL·E mini
+- **Libraries:**
+  - `diffusers` (Hugging Face)
+  - `transformers`
+  - `torch`
+  - `accelerate`
+  - `PIL`
 - **Platform:** Google Colab / Jupyter Notebook
-- **Image Generation Techniques:** Latent diffusion, prompt embeddings
-
----
-
-## 🧠 How It Works
-
-1. **Load Pre-trained Stable Diffusion Model**  
-   Use Hugging Face’s `diffusers` library to access and load the model.
-
-2. **Input Text Prompt**  
-   Provide descriptive text (e.g., "a futuristic city under the stars").
-
-3. **Generate Image**  
-   The model processes the prompt and produces an image reflecting the content.
-
-4. **Save / Visualize Output**  
-   Images are saved locally or displayed inline in Colab.
 
 ---
